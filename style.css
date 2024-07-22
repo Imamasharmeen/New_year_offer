@@ -1,6 +1,7 @@
 /*font style*/
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -200,13 +201,14 @@ center using fex*/
 
 }
 
-.best-offer-section h3{
+.best-offer-section h3 {
     color: rgb(7, 2, 17);
     font-size: 3rem;
     font-weight: 900;
     padding-bottom: 30px;
 }
-.best-offer-section p{
+
+.best-offer-section p {
     color: rgb(7, 2, 17);
     font-size: 1rem;
     font-weight: 900;
@@ -225,28 +227,71 @@ center using fex*/
     border: 2px solid red;
     width: 20%;
 }
-.holiday-sale{
+
+.holiday-sale {
     border: 2px solid rgb(21, 8, 201);
     width: 70%;
     margin: 0 auto;
     position: relative;
 }
-.holiday-sale-text{
+
+.holiday-sale-text {
     width: 60%;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 50px;
 }
-.holiday-sale-img1{
+
+.holiday-sale-img1 {
     position: absolute;
     left: 1000px;
     top: 150px;
 }
-.holiday-sale-img3{
+
+.holiday-sale-img3 {
     position: absolute;
     bottom: 30px;
 }
-.holiday-sale-img2{
+
+.holiday-sale-img2 {
     position: relative;
     z-index: 1;
+}
+
+.portfolio-section {
+    border: 2px solid red;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.portfolio-text-section {
+    border: 2px solid red;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.portfolio-img-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.newsletter {
+    border: 2px solid red;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 20px 0;
+}
+.newsletter-button{
+    border: 2px solid red;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
 }
