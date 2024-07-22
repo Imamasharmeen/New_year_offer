@@ -145,30 +145,31 @@ center using fex*/
     margin: 0 auto;
     margin-top: 120px;
     border-radius: 16px;
-    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.info-section-content{
+.info-section-content {
     border: 2px solid red;
     width: 40%;
     height: 40%;
 
 
 }
-.info-section-content p{
+
+.info-section-content p {
     font-size: 28px;
     font-weight: 600;
 }
 
-.info-section-content p span{
+.info-section-content p span {
     color: rgb(255, 0, 0);
 }
 
-.button{
+.button {
     color: rgb(255, 255, 255);
     font-size: 20px;
     font-weight: 700;
@@ -178,9 +179,74 @@ center using fex*/
     padding: 16px 32px 16px 32px;
     margin-top: 48px;
 }
+
 /* Info section is end here.*/
 /* Best-offer-section is start here.*/
 
-.best-offer-section{
-    
+.best-offer-section {
+    border: 2px solid red;
+    width: 70%;
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+}
+
+.best-offer-section-first {
+    border: 2px solid red;
+    width: 30%;
+
+}
+
+.best-offer-section h3{
+    color: rgb(7, 2, 17);
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+.best-offer-section p{
+    color: rgb(7, 2, 17);
+    font-size: 1rem;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.best-offer-section-img {
+    border: 8px solid red;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+
+
+.best-offer-section-last {
+    border: 2px solid red;
+    width: 20%;
+}
+.holiday-sale{
+    border: 2px solid rgb(21, 8, 201);
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+.holiday-sale-text{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.holiday-sale-img1{
+    position: absolute;
+    left: 1000px;
+    top: 150px;
+}
+.holiday-sale-img3{
+    position: absolute;
+    bottom: 30px;
+}
+.holiday-sale-img2{
+    position: relative;
+    z-index: 1;
 }
